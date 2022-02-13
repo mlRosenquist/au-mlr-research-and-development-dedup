@@ -1,0 +1,53 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-10T13:59:20+01:00
+
+====== 1 - 02/10-22 ======
+
+* How to get started
+	* Reading different papers
+	* Isolation forest
+	* Code from aaron in python
+* Scope
+	* Build up knowledge
+	* Early understanding. GDD. 
+	* Isolation Forest - understand, change and use. 
+	* Tune different metrics. 
+* Expectations
+	* Write up.
+		* Double-column
+		* Scientific
+		* Take over for master
+		* No stricts requirement for everything to work. 
+* Formalities: planning, meeting occurency
+	* 3-4pm tuesdays. 
+
+
+Litterature on k-means on how well the approximation is. 
+- Sending to my email
+
+K-means to look into properties. 
+
+Samples collected identify outliers and anomaloies in the data. 
+
+Identity patterns Isololation forest. Split and recognize 
+
+Work of phd student is shared on basic functions. 
+
+Can i implement isolation forest for basis and deviation. 
+
+Understand isolation forest. 
+
+Retrieve [[IoT]] data sets. 
+
+Paper on isolation forest. Expand to others. 
+
+Reading:
+- Isolation Forest. 
+- Look at citations for newer work state of the art. 
+-
+
+
+Axel look at median, variance. I will at anomaly detection. 
+
+Anomoly Detection. For 5 ECTS. 
