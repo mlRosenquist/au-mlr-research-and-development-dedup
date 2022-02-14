@@ -38,7 +38,7 @@ Can i implement isolation forest for basis and deviation.
 
 Understand isolation forest. 
 
-Retrieve [[IoT]] data sets. 
+Retrieve IoT data sets. 
 
 Paper on isolation forest. Expand to others. 
 
