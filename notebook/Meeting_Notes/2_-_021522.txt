@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-15T14:08:00+01:00
+
+====== 2 - 021522 ======
+
+===== Agenda =====
+
+==== What I have looked at: ====
+* Read articles: 
+	* Direct Analytics on Gen. Dedup compressed data
+	* Isolation Forest
+* Looked at anomaly detection methods
+* Looked at axel's code.
+* Looked at Isolation Forest improvements
+
+==== Questions: ====
+* Which anomaly detection method to use?:
+	* Maybe try different ones and evaluate result. 
+		* Isolation Forest
+		* Extended Isolation Forest? h2o library 
+		* Distance based?
+		* Amazon's Random Cut Forest? Is an open source version
+
+* More concrete how to do the anomaly detection on gen dedup compressed data:
+	* Look at the basis?
+	* Look at the deviation?
+	* Integers/Float32/Floatxx
+
+* Axel used a python.gd library. How to get that? Is it the one from aaron?
+
+==== Next Steps: ====
+
+Anomaly detection datasets
+- Yahoo
+
+
+
+

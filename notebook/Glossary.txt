@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-15T08:01:46+01:00
+
+====== Glossary ======
+Created Tuesday 15 February 2022
+
+===== Generalized Deduplication =====
+- Consider chunks at bit level and split into parts that can be deduplicated. >And storing another part. This is the base and deviation. 
+- MSB generally have minimal variations = base. LSB = deviations. 
+{{./pasted_image010.png}}
+{{./pasted_image001001.png}}
+
+===== Types of anomalies =====
+{{./pasted_image002.png}}
+
+===== Anomaly Detection Algorithms =====
+{{./pasted_image008.png}}
+{{./pasted_image004.png}}
+{{./pasted_image005.png}}
+{{./pasted_image007.png}}
+
+==== Isolation Forest ====
+{{./pasted_image006.png}}
+{{./pasted_image009.png}}

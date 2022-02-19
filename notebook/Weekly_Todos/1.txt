@@ -4,11 +4,12 @@ Creation-Date: 2022-02-14T22:56:36+01:00
 
 ====== 1 ======
 
-[ ] Read Articles
-	[ ] Direct_Analytics_of_Generalized_Deduplication_Compressed_IoT_Data
-	[ ] EW2019_accepted
-	[ ] Isolation_Forest
-[ ] Look into code
-	[ ] Axel's Gitlab: https://gitlab.au.dk/netx/gd-test-lab
-[ ] Research anomaly detection state of the art
-	[ ] Upgrades version of isolation forest
+[*] Read Articles
+	[*] Direct_Analytics_of_Generalized_Deduplication_Compressed_IoT_Data
+	[*] EW2019_accepted
+	[*] Isolation_Forest
+[*] Look into code
+	[*] Axel's Gitlab: https://gitlab.au.dk/netx/gd-test-lab
+[*] Research anomaly detection state of the art
+	[*] Upgrades version of isolation forest
+

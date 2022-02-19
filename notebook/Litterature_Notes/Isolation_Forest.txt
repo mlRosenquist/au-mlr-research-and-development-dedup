@@ -3,5 +3,63 @@ Wiki-Format: zim 0.6
 Creation-Date: 2022-02-14T22:59:28+01:00
 
 ====== Isolation Forest ======
-Created Monday 14 February 2022
+
+
+==== Introduction ====
+
+=== Anomaly: ===
+Different data characteristics from normal instances. 
+
+=== Anomaly Detection ===
+{{./pasted_image.png}}
+=== Isolation Forest ===
+- Model based method
+- Isolates anomalies instead of profiling normal instances
+- properties: 
+	i) they are the minority consisting of fewer instances and
+	ii) they have attribute-values that are very different from those of normal instances
+- Anomalies isolated closer to the root of the tree. 
+- procedure: 
+	- build iTrees
+	- anomalies are the ones with short average path
+
+===== Isolation forest vs existing model-based =====
+{{./pasted_image001.png}}
+{{./pasted_image002.png}}
+===== Task of Anomaly Detection =====
+{{./pasted_image003.png}}
+==== Anomaly Score ====
+	{{./pasted_image004.png}}
+	{{./pasted_image005.png}}
+==== Path Length and Score ====
+	{{./pasted_image006.png}}
+	{{./pasted_image007.png}}
+===== Characteristis of Isolation Trees =====
+Both swamping and masking are a result of too many data for the purpose of anomaly detections. 
+Isolation Forest allows sub-sampling to avoid this. 
+
+==== Swamping ====
+Wrong identifying normal instances as anomalies.
+
+==== Masking ====
+Too many anomalies concealing their own presence. For example anomaly clusters. 
+
+==== Mulcross ====
+
+	{{./pasted_image008.png}}{{./pasted_image009.png}}'
+
+===== Anomaly Detection using Isolation Forest =====
+- Two-stage process
+
+==== Training: ====
+	- build isolation trees using sub-saples of training set
+	- recursively partition training set untill instances are isolated or height is met. 
+{{./pasted_image010.png}}
+==== Testing ====
+	- passes test instances through tree to obtain anomaly score
+	
+===== Results =====
+{{./pasted_image011.png}}
+===== Conclusion =====
+{{./pasted_image012.png}}
 

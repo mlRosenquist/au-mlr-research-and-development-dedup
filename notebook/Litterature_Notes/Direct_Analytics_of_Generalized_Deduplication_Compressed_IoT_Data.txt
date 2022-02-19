@@ -5,3 +5,52 @@ Creation-Date: 2022-02-14T22:59:09+01:00
 ====== Direct Analytics of Generalized Deduplication Compressed IoT Data ======
 Created Monday 14 February 2022
 
+- Analytics on compressed data
+- TRISTAN/Plato on time series data - lossy
+- Zwift and Alacrity - lossless (less and slow compression)
+- GD - lossless, suits IoT, random Access
+- Main Contributions: 
+	1) Efficient compressed data analytics methods for numeric data based on a lossless compression algorithm,
+	2) Experimental validation of these methods in the context of clustering, including explainable clustering, and 
+	3) Insights into key challenges of direct compressed data analytics and considerations for managing compression and analytics holistically.
+- Focuses on clustering and testing k-means. And two explainable variation: IMM and DTC. 
+- Base centroid: mean of minimum and maximum -> mapped to base. 
+- Maximum deviation: their difference. 
+
+==== Finding min, max and variance ====
+- {{./pasted_image002.png}}
+
+==== Variables ====
+{{./pasted_image003.png}}
+==== Compressed Data Transformation ====
+{{./pasted_image004.png}}
+{{./pasted_image005.png}}
+==== Algorithm ====
+{{./pasted_image006.png}}
+==== Time Complexity ====
+{{./pasted_image008.png}}
+==== Challenges ====
+{{./pasted_image011.png}}
+==== Datasets ====
+{{./pasted_image009.png}}
+{{./pasted_image010.png}}
+==== Results ====
+GD Modifications: 
+- Storing d in the parameters file to avoid building in assumptions to determine the number of attributes.
+- Restricting the sign and exponent bits to the base for floating point data.
+Procedure: 
+- clustering: k-means / IMM [[/DTC]]
+- measure cluster performance with sum of squared errors
+- compared with approximation ratio
+{{./pasted_image014.png}}
+{{./pasted_image015.png}}
+==== Running Cost ====
+{{./pasted_image016.png}}
+
+==== Conclusion ====
+- Direct analysis on lossless compressed data. 
+- Approximated uncompressed with only 1-5% difference, only acessing 14% as much data. Quarter of a time. Storage saving of 53.6%
+- Future work: outlier detection, classification and basic queries. 
+
+
+

@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-15T12:58:28+01:00
+
+====== web-articles ======
+
+===== Introduciton to Anomaly Detection =====
+https://towardsdatascience.com/introduction-to-anomaly-detection-c651f38ccc32
+
+===== Isolation Forest vs. Extended Isolation Forest =====
+https://towardsdatascience.com/outlier-detection-with-extended-isolation-forest-1e248a3fe97b
+
+===== Outlier Detection General =====
+https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623
+https://www.intellspot.com/anomaly-detection-algorithms/
+https://medium.com/nerd-for-tech/anomaly-detection-techniques-5fdfbab9180a
+
+===== Isolation Forest vs Amazon Robust Random Cut Forest =====
+https://stackoverflow.com/questions/63115867/isolation-forest-vs-robust-random-cut-forest-in-outlier-detection
