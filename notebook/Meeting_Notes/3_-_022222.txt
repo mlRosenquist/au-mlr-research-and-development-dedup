@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-20T16:26:36+01:00
+
+====== 3 - 022222 ======
+
+===== Agenda =====
+
+==== What I have looked at: ====
+[*] Understand axel's setup and code
+[*] Setup source code
+[*] Generate GD data
+[*] Perform isolation forest on gd data
+[*] Look at scikit learn implementation
+[*] Look at other implementations of iForest
+[*] Looked at other anomaly detections methods. 
+
+==== Questions: ====
+* Which dataset to work on
+	* Which features to look at
+	* Two features
+	* Done GD on both features?
+	* What about the deviation?
+	* IOT data
+* Scikit learn isolation forest
+	* Not much configurability
+	* We talked about looking at bins - how?
+	* Should I create my own implementation
+* What to measure and test?
+
+==== Next Steps: ====

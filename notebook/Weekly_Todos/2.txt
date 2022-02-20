@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-02-19T21:25:04+01:00
+
+====== 2 ======
+
+[*] Understand axel's setup and code
+[*] Setup source code
+[*] Generate GD data
+[*] Perform isolation forest on gd data
+[*] Look at scikit learn implementation
+[*] Look at other implementations of iForest
