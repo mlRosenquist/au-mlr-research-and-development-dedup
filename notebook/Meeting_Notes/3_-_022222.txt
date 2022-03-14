@@ -16,16 +16,45 @@ Creation-Date: 2022-02-20T16:26:36+01:00
 [*] Looked at other anomaly detections methods. 
 
 ==== Questions: ====
+
 * Which dataset to work on
-	* Which features to look at
+	* Which features to look at: 2/3/4
 	* Two features
 	* Done GD on both features?
-	* What about the deviation?
+	* What about the deviation? 
+		* Only looking at the base. Not so import for approximate analytics. 
 	* IOT data
 * Scikit learn isolation forest
 	* Not much configurability
-	* We talked about looking at bins - how?
+	* We talked about looking at bins - how exactly?
 	* Should I create my own implementation
 * What to measure and test?
 
 ==== Next Steps: ====
+- Look at data sets. 
+	-  
+
+(0001, 0010) -> base: (00,00) - deviation: (01,10)
+(0011, 0011) -> base: (00,00) - deviation: (11,11)
+(0101, 0110)  -> base: (01,01) - deviation: (01,10)
+{{./pasted_image.png}}can calculate h(x) backwards from anomaly score from scikit learn. 
+
+if certain counts of x then we can do. Assumptions of how deep we can cut. Simplify way to compute that. 
+Think about scalin. A lot of it goes to maximum depth. 
+
+What are results of both 
+
+How is the isolation forest. 
+
+How many samples are we clustering where. 
+
+2,3,4 features. 
+
+100 samples. 
+
+
+
+
+
+
+

@@ -38,6 +38,18 @@ def compress_floatxx(f: np.single, float_bits=32, deviation_bits=0, output="bina
     return base
 
 
+def compress_int_array(i_array, deviation_bits=0, output="binary"):
+    res = []
+    for i in i_array:
+        i = int(i)
+        if (deviation_bits == 0):
+            res.append(i)
+        base = bin(i)[:0-deviation_bits] + "0" * deviation_bits
+        if (output == "integer"):
+            res.append(int(base, 2))
+    return res
+
+
 def compress_int(i, deviation_bits=0, output="binary"):
     if (deviation_bits == 0):
         return i
