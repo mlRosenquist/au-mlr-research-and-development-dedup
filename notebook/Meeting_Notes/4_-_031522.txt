@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-03-15T14:30:31+01:00
+
+====== 4 - 031522 ======
+Created Tuesday 15 March 2022
+
+===== Agenda =====
+
+==== What I have looked at: ====
+[ ] Looked at anomolay data sets
+[ ] Performed isolation forest on different dimensions
+
+==== Questions: ====
+
+* Dataset
+	* All the datasets have multiple features
+		* Will get bad performance when using less features? Should i do some feature selection or dimension reduction?
+			* Possibly PCA & LDA. 
+			* Also look into feature reduction techniques. 
+
+* I have the anomaly score. Why is it relevant to calculate as per the formula in the paper. 
+* {{./pasted_image.png}}can calculate h(x) backwards from anomaly score from scikit learn. 
+
+if certain counts of x then we can do. Assumptions of how deep we can cut. Simplify way to compute that. 
+Think about scalin. A lot of it goes to maximum depth. 
+
+==== Next Steps: ====
+
+n = number of bases
+might need to scale = 
+
+{{./pasted_image002.png}}
+{{./pasted_image003.png}}
+{{./pasted_image004.png}}
+extract h(x). 
+
+Do it on syntehtic data set. 
+
+
