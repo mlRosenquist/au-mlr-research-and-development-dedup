@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-03-22T13:18:49+01:00
+
+====== 5 - 032222 ======
+Created Tuesday 22 March 2022
+
+===== Agenda =====
+
+==== What I have looked at: ====
+
+==== Questions: ====
+
+==== Notes ====
+c(n): average path length of unsuccessful search in BST
+{{./pasted_image.png}}
+average of h(x) given n - used to normalize h(x)
+
+
+
+H(i): harmonic number - estimated by ln(i) + euler
+{{./pasted_image001.png}}
+
+
+
+h(x): Path length
+{{./pasted_image002.png}}
+
+
+
+n: amount of instances/nodes - amount of bases in our situation
+
+
+
+s: anomaly score - the anomaly score of an instance x is: 
+{{./pasted_image005.png}}
+
+
+
+E(h(x)): average of h(x) from a collection of isolation trees: 
+{{./pasted_image004.png}}
+
