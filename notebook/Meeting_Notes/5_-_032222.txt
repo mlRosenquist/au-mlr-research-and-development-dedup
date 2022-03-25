@@ -8,35 +8,21 @@ Created Tuesday 22 March 2022
 ===== Agenda =====
 
 ==== What I have looked at: ====
+- Synthetic data set
+	- 2 features
+- Calculations
 
 ==== Questions: ====
+clarification on calculation. 
+	- n = amount of bases in our situation. How do i count these? I'm working on 2d set. So is it the count (x,y), where x and y is each a base. (n_base)
+	- H(i) - should be okay
+	- c(n) - relies on n
+	- where does x come from in equation 1
 
 ==== Notes ====
-c(n): average path length of unsuccessful search in BST
-{{./pasted_image.png}}
-average of h(x) given n - used to normalize h(x)
 
-
-
-H(i): harmonic number - estimated by ln(i) + euler
-{{./pasted_image001.png}}
-
-
-
-h(x): Path length
-{{./pasted_image002.png}}
-
-
-
-n: amount of instances/nodes - amount of bases in our situation
-
-
-
-s: anomaly score - the anomaly score of an instance x is: 
-{{./pasted_image005.png}}
-
-
-
-E(h(x)): average of h(x) from a collection of isolation trees: 
-{{./pasted_image004.png}}
+====== Next Steps: ======
+- perform the calculation - look at pictures
+- look into comparing isolation - with and without generalized deduplication. Performance and how well they detect outliers. 
+- look into sklearn and h ow they get the negative values. 
 

@@ -20,12 +20,12 @@ $f_{base}=\log_2(n_{base})$
 ---
 
 ## Deriving equations
-$\log_2(s)\cdot x \cdot c(n)=-E(h(x))$
+$\log_2(s) \cdot c(n)=-E(h(x))$
 
 
 $\log_2(s)=-\frac{E(h(x))+\log_2(f_{base})}{c(n_{samples})}$
 
-$\log_2(s)\cdot x \cdot c(n) = -E(h(x))$
+$\log_2(s) \cdot c(n) = -E(h(x))$
 
 $\log_2(s) = -\frac{E(h(x))+\log_2(f_{base})}{c(n_{samples})}$
 
