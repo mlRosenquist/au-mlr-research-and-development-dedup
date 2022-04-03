@@ -24,3 +24,4 @@ https://stackoverflow.com/questions/45223921/what-is-the-range-of-scikit-learns-
 - look into comparing isolation - with and without generalized deduplication. Performance and how well they detect outliers. Include it in the dataframe, so nice to see difference. 
 
 - non linear regression to learn constant for log_2
+{{./pasted_image005.png}}
