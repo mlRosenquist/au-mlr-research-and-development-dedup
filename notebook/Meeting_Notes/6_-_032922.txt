@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-03-29T12:20:45+02:00
+
+====== 6 - 032922 ======
+
+===== Agenda =====
+
+==== What I have looked at: ====
+- look into sklearn and how they get the negative values. 
+https://stackoverflow.com/questions/45223921/what-is-the-range-of-scikit-learns-isolationforest-decision-function-scores
+	{{./pasted_image002.png}}
+{{./pasted_image.png}}
+{{./pasted_image003.png}}
+
+- perform the calculation - look at pictures
+
+==== Questions: ====
+
+==== Notes ====
+
+====== Next Steps: ======
+
+- look into comparing isolation - with and without generalized deduplication. Performance and how well they detect outliers. Include it in the dataframe, so nice to see difference. 
+
+- non linear regression to learn constant for log_2

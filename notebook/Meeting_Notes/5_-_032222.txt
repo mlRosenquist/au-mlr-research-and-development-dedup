@@ -26,3 +26,4 @@ clarification on calculation.
 - look into comparing isolation - with and without generalized deduplication. Performance and how well they detect outliers. 
 - look into sklearn and h ow they get the negative values. 
 
+{{./pasted_image007.png}} + 
