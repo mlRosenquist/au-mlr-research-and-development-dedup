@@ -1,0 +1,77 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-08T12:57:45+02:00
+
+====== 7 - 040822 ======
+Created Friday 08 April 2022
+
+====== 6 - 032922 ======
+
+===== Agenda =====
+
+==== What I have looked at: ====
+- restructure notebook
+- comparing with original data
+
+==== What I have not looked at: ====
+
+==== Questions: ====
+- regression - how to identify constant before log? 
+{{../6_-_032922/pasted_image005.png}}
+- Report
+	- Getting started?
+	- Sections / structure
+	- Content
+	- Who am i writing to (depth)?
+
+==== Notes ====
+
+====== Next Steps: ======
+- look at iForest implementation. Try to extend it with count. 
+- timing experiments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+look further sklearn implementation - x
+
+performance (normal vs extended): 
+- accuracy, precision, recall, f1: start with FP and FN. 
+- computation
+- confusion matrix - x 
+
+Figure to illustrate different decisions functions. 
+
+Start on report
+
+
+
+
