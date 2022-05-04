@@ -1,0 +1,48 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-04-08T12:57:45+02:00
+
+====== 8 - 042922 ======
+
+====== 6 - 032922 ======
+
+===== Agenda =====
+
+==== What I have looked at: ====
+- look further sklearn implementation
+	- works
+	- optimized
+	- not on my work pc :(
+
+- performance: 
+	- accuracy, precision, recall, f1
+	- computation - ? 
+		-  will have to look deeper into the algorithm, and define pseudo algorithm
+	- confusion matrix
+	- timing experiments
+
+- Figure to illustrate different decisions functions
+	- Is nice for report, when describing extended version. But how should it look. Inspiration: https://www.google.com/search?q=isolation+forest+figure&rlz=1C1GCEU_enDK897DK897&sxsrf=ALiCzsbedY0AvgOIcymROTaikk736aIRaw:1651161215405&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjb7tftjrf3AhXC0aQKHVLKDYwQ_AUoAXoECAEQAw&biw=956&bih=920&dpr=1
+	- Got decision function example in notebook, with a single cluster 
+	
+- Start on report 
+	- Thought about structure. 
+	- Looked into similar topics on how they structure the papers. 
+	- Not 100% sure in what to include
+
+==== What I have not looked at: ====
+
+
+==== Questions: ====
+- Go through report structure
+
+==== Notes ====
+
+====== Next Steps: ======
+
+
+
+
+
+
+

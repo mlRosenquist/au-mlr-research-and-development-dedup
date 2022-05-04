@@ -64,13 +64,15 @@ Created Friday 08 April 2022
 look further sklearn implementation - x
 
 performance (normal vs extended): 
-- accuracy, precision, recall, f1: start with FP and FN. 
-- computation
+- accuracy, precision, recall, f1: start with FP and FN. - x 
+- computation - ? 
+	-  will have to look deeper into the algorithm, and define pseudo algorithm
 - confusion matrix - x 
 
-Figure to illustrate different decisions functions. 
+Figure to illustrate different decisions functions. x
+https://www.google.com/search?q=isolation+forest+figure&rlz=1C1GCEU_enDK897DK897&sxsrf=ALiCzsbedY0AvgOIcymROTaikk736aIRaw:1651161215405&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjb7tftjrf3AhXC0aQKHVLKDYwQ_AUoAXoECAEQAw&biw=956&bih=920&dpr=1
 
-Start on report
+Start on report 
 
 
 
