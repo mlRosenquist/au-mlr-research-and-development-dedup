@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-09T08:30:08+02:00
+
+====== 9 - ======
+
+===== Agenda =====
+
+==== What I have looked at: ====
+[ ] Look at 3-4 different outlier data sets. Dont do timing. But get metrics for each in nice table. 
+	[ ] Decide datasets- 
+	[ ] sklearn extention work on more dimensions
+	[ ] implement way to compare metrics from multiple datasets. Or make multiple notebooks and manually create table. 
+
+[*] Make a deviation/metrics plot on the synthetic data set.
+	[*] Make the setup. Tune deviation bits
+	[*] Make plot
+
+[ ] Figure to show extended is to be drawn by hand, see google example.  and maybe trees beside. 
+	[ ] Decide simple example
+	[ ] Figure with cuts - original, bases, extended
+	[ ] Figure with trees - original bases, extended
+
+==== What I have not looked at: ====
+
+==== Questions: ====
+- What can we see from deviation metric plot 
+
+==== Notes ====
+
+====== Next Steps: ======
+
+
+
