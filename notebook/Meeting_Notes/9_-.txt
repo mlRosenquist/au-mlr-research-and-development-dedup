@@ -16,15 +16,16 @@ Creation-Date: 2022-05-09T08:30:08+02:00
 	[*] Make the setup. Tune deviation bits
 	[*] Make plot
 
-[ ] Figure to show extended is to be drawn by hand, see google example.  and maybe trees beside. 
-	[ ] Decide simple example
-	[ ] Figure with cuts - original, bases, extended
-	[ ] Figure with trees - original bases, extended
+[*] Figure to show extended is to be drawn by hand, see google example.  and maybe trees beside. 
+	[*] Decide simple example
+	[*] Figure with cuts - original, bases, extended
+	[*] Figure with trees - original bases, extended
 
 ==== What I have not looked at: ====
 
 ==== Questions: ====
 - What can we see from deviation metric plot 
+- How to show extention on figure. Is the anomaly score we update based on counts. 
 
 ==== Notes ====
 
