@@ -9,7 +9,7 @@ Creation-Date: 2022-05-09T08:30:08+02:00
 ==== What I have looked at: ====
 [ ] Look at 3-4 different outlier data sets. Dont do timing. But get metrics for each in nice table. 
 	[ ] Decide datasets- 
-	[ ] sklearn extention work on more dimensions
+	[*] sklearn extention work on more dimensions
 	[ ] implement way to compare metrics from multiple datasets. Or make multiple notebooks and manually create table. 
 
 [*] Make a deviation/metrics plot on the synthetic data set.
@@ -28,6 +28,7 @@ Creation-Date: 2022-05-09T08:30:08+02:00
 - How to show extention on figure. Is the anomaly score we update based on counts. 
 
 ==== Notes ====
+around 5th of june 
 
 ====== Next Steps: ======
 
