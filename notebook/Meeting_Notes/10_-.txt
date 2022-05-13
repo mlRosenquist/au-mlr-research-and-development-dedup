@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2022-05-13T10:42:58+02:00
+
+====== 10 - ======
+
+===== Agenda =====
+
+==== What I have looked at: ====
+[ ] Look at 3-4 different outlier data sets. Dont do timing. But get metrics for each in nice table. 
+	[ ] Decide datasets- 
+		[ ] PenDigits
+		[ ] WBC - scaled * 10
+		[ ] Shuttle
+		[ ] Waveform - scaled * 10
+	[*] sklearn extention work on more dimensions
+	[ ] implement way to compare metrics from multiple datasets. Or make multiple notebooks and manually create table. 
+		[ ] Manually create table
+
+==== What I have not looked at: ====
+
+==== Questions: ====
+
+==== Notes ====
+
+====== Next Steps: ======
+
+
+
