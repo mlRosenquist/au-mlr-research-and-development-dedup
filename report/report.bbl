@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.1 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -16,5 +16,356 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{iforest}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=231b376c1eeea575643f44deb86338c4}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Fei\bibnamedelima Tony},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=9bc17f24d02724c02d418a27dfea50bb}{%
+           family={Ting},
+           familyi={T\bibinitperiod},
+           given={Kai\bibnamedelima Ming},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6b1a37e820a730061851a81dcca2d154}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zhi-Hua},
+           giveni={Z\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{fullhash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{bibnamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{authorbibnamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{authornamehash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \strng{authorfullhash}{b38d2601a5a1a63e9c41ca76b68a2df4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 Eighth IEEE International Conference on Data Mining}
+      \field{title}{Isolation Forest}
+      \field{year}{2008}
+      \field{pages}{413\bibrangedash 422}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/ICDM.2008.17
+      \endverb
+    \endentry
+    \entry{deduplication}{article}{}
+      \name{author}{9}{}{%
+        {{hash=e5a4e88ae96f63f955112ee3085e3574}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Wen},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e0879b52aa4eccf0ea6c596bbbcefd95}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=197ede76cbb39fe4ffbf5bec08c198a9}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7694f70887e732e716c521cede34f75e}{%
+           family={Douglis},
+           familyi={D\bibinitperiod},
+           given={Fred},
+           giveni={F\bibinitperiod}}}%
+        {{hash=46442b068cf6bbd55ff735305133e360}{%
+           family={Shilane},
+           familyi={S\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1e615c059555da32daebe1438fdc2a8b}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e29a6bdfe045b2b16ec34f8b30a7d52c}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=32d86700e5ab5848c83e85ca30f91026}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yucheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f3516e2ddc18ca5f215c51c33351662b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yukun},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9837f8f9d2bf0c1d8bc9a923fa35a24}
+      \strng{fullhash}{efc7c162615261b6b62016e7fd5ff3bb}
+      \strng{bibnamehash}{a9837f8f9d2bf0c1d8bc9a923fa35a24}
+      \strng{authorbibnamehash}{a9837f8f9d2bf0c1d8bc9a923fa35a24}
+      \strng{authornamehash}{a9837f8f9d2bf0c1d8bc9a923fa35a24}
+      \strng{authorfullhash}{efc7c162615261b6b62016e7fd5ff3bb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{9}
+      \field{title}{A Comprehensive Study of the Past, Present, and Future of Data Deduplication}
+      \field{volume}{104}
+      \field{year}{2016}
+      \field{pages}{1681\bibrangedash 1710}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1109/JPROC.2016.2571298
+      \endverb
+    \endentry
+    \entry{related-1}{article}{}
+      \name{author}{4}{}{%
+        {{hash=17fc1da43b8c11eed4dc22bfc322c221}{%
+           family={Ting},
+           familyi={T\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=836894ef527da3a5a56064654f502fd3}{%
+           family={Field},
+           familyi={F\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2e59c55806f1b6b609c0d7978a57695d}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a0b676335c44b357a213791d475906fd}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Travis},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cc208e97ca2f9dc6e925c0d399fe30c}
+      \strng{fullhash}{fbdb0f0d9a522c4cef780dea1df1d3d7}
+      \strng{bibnamehash}{5cc208e97ca2f9dc6e925c0d399fe30c}
+      \strng{authorbibnamehash}{5cc208e97ca2f9dc6e925c0d399fe30c}
+      \strng{authornamehash}{5cc208e97ca2f9dc6e925c0d399fe30c}
+      \strng{authorfullhash}{fbdb0f0d9a522c4cef780dea1df1d3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Information Forensics and Security}
+      \field{number}{5}
+      \field{title}{Compression Analytics for Classification and Anomaly Detection Within Network Communication}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{pages}{1366\bibrangedash 1376}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TIFS.2018.2878172
+      \endverb
+    \endentry
+    \entry{gen-deduplication}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e49b4e570951dfab1934a561dfc7b830}{%
+           family={Vestergaard},
+           familyi={V\bibinitperiod},
+           given={Rasmus},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dab07932b38890cfcc47dd15ec2bc305}{%
+           family={{Lucani Rötter}},
+           familyi={L\bibinitperiod},
+           given={{Daniel Enrique}},
+           giveni={D\bibinitperiod}}}%
+        {{hash=16a6bb056f6786baa492ae9c2e59ac22}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {VDE Verlag GmbH}%
+      }
+      \strng{namehash}{a539bc5a86488c2148837b6b2279d23e}
+      \strng{fullhash}{a539bc5a86488c2148837b6b2279d23e}
+      \strng{bibnamehash}{a539bc5a86488c2148837b6b2279d23e}
+      \strng{authorbibnamehash}{a539bc5a86488c2148837b6b2279d23e}
+      \strng{authornamehash}{a539bc5a86488c2148837b6b2279d23e}
+      \strng{authorfullhash}{a539bc5a86488c2148837b6b2279d23e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{European Wireless Conference}
+      \field{isbn}{978-3-8007-4948-5}
+      \field{title}{Generalized Deduplication: Lossless Compression for Large Amounts of Small IoT Data}
+      \field{year}{2019}
+      \field{pages}{67\bibrangedash 71}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://www.vde-verlag.de/proceedings-en/564948016.html
+      \endverb
+      \verb{url}
+      \verb https://www.vde-verlag.de/proceedings-en/564948016.html
+      \endverb
+    \endentry
+    \entry{extended-iforest}{article}{}
+      \name{author}{3}{}{%
+        {{hash=eb040baf74ac7af9f58367d026a729bd}{%
+           family={Hariri},
+           familyi={H\bibinitperiod},
+           given={Sahand},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9d779bbd9a1d21c31294ef3e6dade53d}{%
+           family={Kind},
+           familyi={K\bibinitperiod},
+           given={Matias\bibnamedelima Carrasco},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=d95c60a2e2434b3dcfd47b8af26bd4a8}{%
+           family={Brunner},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers ({IEEE})}%
+      }
+      \strng{namehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{fullhash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{bibnamehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{authorbibnamehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{authornamehash}{ac12b86cd4ce9c154416da4c443c761a}
+      \strng{authorfullhash}{ac12b86cd4ce9c154416da4c443c761a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{IEEE} Transactions on Knowledge and Data Engineering}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Extended Isolation Forest}
+      \field{volume}{33}
+      \field{year}{2021}
+      \field{pages}{1479\bibrangedash 1489}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/tkde.2019.2947676
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109%2Ftkde.2019.2947676
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109%2Ftkde.2019.2947676
+      \endverb
+    \endentry
+    \entry{dir-analytics-gd}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=303814967306dce94fa1ef043a84d6c6}{%
+           family={Hurst},
+           familyi={H\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=16a6bb056f6786baa492ae9c2e59ac22}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=dab07932b38890cfcc47dd15ec2bc305}{%
+           family={{Lucani Rötter}},
+           familyi={L\bibinitperiod},
+           given={{Daniel Enrique}},
+           giveni={D\bibinitperiod}}}%
+        {{hash=69b6af16c92b02af90eb0a2864250685}{%
+           family={Assent},
+           familyi={A\bibinitperiod},
+           given={Ira},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{8b04647014515fadf03cd32270cf528e}
+      \strng{fullhash}{03226e773bf647a31edfaa8c7ed688a0}
+      \strng{bibnamehash}{8b04647014515fadf03cd32270cf528e}
+      \strng{authorbibnamehash}{8b04647014515fadf03cd32270cf528e}
+      \strng{authornamehash}{8b04647014515fadf03cd32270cf528e}
+      \strng{authorfullhash}{03226e773bf647a31edfaa8c7ed688a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Global Communications Conference (GLOBECOM)}
+      \field{note}{IEEE Conference and Exhibition on Global Telecommunications, GLOBECOM ; Conference date: 07-12-2021 Through 11-12-2021}
+      \field{series}{IEEE Global Communications Conference (GLOBECOM)}
+      \field{title}{Direct Analytics of Generalized Deduplication Compressed IoT Data}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1109/GLOBECOM46510.2021.9685589
+      \endverb
+      \verb{urlraw}
+      \verb https://globecom2021.ieee-globecom.org/
+      \endverb
+      \verb{url}
+      \verb https://globecom2021.ieee-globecom.org/
+      \endverb
+    \endentry
+    \entry{anomaly-det-compressed}{article}{}
+      \name{author}{5}{}{%
+        {{hash=257512656b4c4eeb6adbca1e658741bf}{%
+           family={Marchioni},
+           familyi={M\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=54fcc66e2ec1342ebbe50e103643fb8f}{%
+           family={Enttsel},
+           familyi={E\bibinitperiod},
+           given={Andriy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73b9a84bff93c1eb26fb55ec5121ebe1}{%
+           family={Mangia},
+           familyi={M\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7172aded89a9ec86dd51f0e8c2c5fff4}{%
+           family={Rovatti},
+           familyi={R\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5dad27a0ad10db066788e195fe4f7ac7}{%
+           family={Setti},
+           familyi={S\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{c679629f9a0a2fa11d849c401c77054b}
+      \strng{fullhash}{177f6cd9713cf56ba7908b025e45f606}
+      \strng{bibnamehash}{c679629f9a0a2fa11d849c401c77054b}
+      \strng{authorbibnamehash}{c679629f9a0a2fa11d849c401c77054b}
+      \strng{authornamehash}{c679629f9a0a2fa11d849c401c77054b}
+      \strng{authorfullhash}{177f6cd9713cf56ba7908b025e45f606}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Anomaly Detection based on Compressed Data: an Information Theoretic Characterization}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.36227/techrxiv.16738171.v1
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

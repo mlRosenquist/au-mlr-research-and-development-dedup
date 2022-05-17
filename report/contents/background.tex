@@ -1,5 +1,12 @@
 \unfinished{Write background}
 
-% GD
+\subsection{Generalized Deduplication}
+Deduplication is a technique to perform compression in storage systems. The technique works by utilizing the simarlity of file chunks. Each unique file chunk is stored once. Subsequent copies of the chunks are then replaced with a reference to the stored chunk. The method is established and shown to have good compression gain on various practical scenarios \cite{deduplication}. However, if there are minor discrepancies in the file chunks, the technique will not leverage any of the similarities. Resulting in the near-identical chunks being stored in full. Sensor data from IoT devices is one example of the data potentially being near-identical. 
 
-% Isolation Forest
+To utilize the similarities in the almost identical data, a generalization of deduplication has been studied.     
+This method consider the chunks at the bit level and splits them into two parts, the \textit{base} and \textit{deviation}. The \textit{base} is the identical part that is to be stored once and herafter referenced with pointers. The \textit{deviation} is the disparity between the chunks. Looking at a simple example with four 6-bit numbers, $100000$, $100001$, $100010$ and $100011$. It can be identified that the four most significant bits of the numbers are identical. Hence, leading to all having a shared \textit{base} of $1000$. The two least significant bits are then the \textit{deviation}\cite{gen-deduplication}.   
+
+\subsection{Isolation Forest}
+Anomaly detection is a combination of outlier- and novelty detection. Including both identifying outliers in the training data and determining if unseen observations are outliers. Isolation Forest (iForest) is an anomaly detection method. It differs from other popular techniques in the way that it identifies anomalies explicitly instead of profiling ordinary data points\cite{iforest}. IForest utilizes decision trees similar to other tree ensemble methods.
+The main principle is to recursively split each data point, and then evaluate the amount of splits necessary to split each data point. The logic is that anomalies will requires less splits to be isolated than an ordinary point.  
+Trees are built by selecting a random feature and then selecting a random value between the minimum and maximum value of that feature. The process is then repeated untill all data points are isolated or a maximum height of the tree is reached. An illustration can be seen on figure.... \todo{Tilføj figur med plot af data points og tilhørende træ.}

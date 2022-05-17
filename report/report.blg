@@ -1,9 +1,17 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'report.blg'
-[50] biber:340> INFO - === Thu May  5, 2022, 20:14:28
-[59] Biber.pm:418> INFO - Reading 'report.bcf'
-[113] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
-[128] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
-[128] bbl.pm:757> INFO - Output to report.bbl
-[128] Biber.pm:130> WARN - The file 'report.bcf' does not contain any citations!
-[128] Biber.pm:132> INFO - WARNINGS: 1
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'report.blg'
+[81] biber:340> INFO - === Tue May 17, 2022, 14:16:50
+[96] Biber.pm:415> INFO - Reading 'report.bcf'
+[166] Biber.pm:952> INFO - Found 7 citekeys in bib section 0
+[180] Biber.pm:4340> INFO - Processing section 0
+[189] Biber.pm:4531> INFO - Looking for bibtex format file 'misc/references.bib' for section 0
+[191] bibtex.pm:1689> INFO - LaTeX decoding ...
+[200] bibtex.pm:1494> INFO - Found BibTeX data source 'misc/references.bib'
+[292] Utils.pm:395> WARN - legacy month field 'apr' in entry 'extended-iforest' is not an integer - this will probably not sort properly.
+[313] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[314] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[314] Biber.pm:4168> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[314] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[325] bbl.pm:654> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[332] bbl.pm:757> INFO - Output to report.bbl
+[333] Biber.pm:128> INFO - WARNINGS: 1
