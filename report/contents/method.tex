@@ -14,4 +14,44 @@
 
 % What to include:
 
-\subsection{Count Isolation Forest}
+\subsection{Isolation Forest on GD compressed Data}
+Data compressed with generalized deduplication results in having a set of bases, deviation and references linking a data point to its base and deviation. In the following example the deviation will be omitted. Say we have the data set $S$ where $S \in \mathbb{R}^2$. Performing GD on $S$ will result in each feature of the points being mapped to their bases. Having an point $x = [x_1,x_2]$ where $x \in S$ and some computed bases ids $b_0, b_1, ..., b_n$,then the transformed version $x*=[x^*_1, x^*_2]$ will hold the computed bases. This is depicted on Figure \ref*{fig:gd_points}. The bases are computed on the raw data and referenced in the features $x^*_1$ and $x^*_2$.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{../files/test.png}
+  \caption{}
+  \label{fig:gd_points}
+\end{figure}
+
+Isolation forest is then to be performed on the transformed version of the data set. The isolation forest splits before compression could be seen on Figure \ref{fig:rich_sketch_original}. Figure \ref{fig:rich_sketch_bases} is similar but is instead performing the splits on the bases. It is seen that certain data points will map to identical bases on both features.  
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\linewidth]{images/rich_sketch_bases.png}
+  \caption{}
+  \label{fig:rich_sketch_bases}
+\end{figure}
+
+
+\subsection{DupRes Isolation Forest}
+The bases of GD compressed data will inherintly be grouped. Stripping the deviation of each data point will result in data points being placed in bins. This binning is illustrated on figure \ref*{fig:binning}. The graphic shows the bins created with different amount of deviation bits. The circles are the bases. The dotted lines are enclosing areas where data points in an area will be mapped to the closest base in the negative direction. Having a larger amount of deviation bits is leading to larger bins. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\linewidth]{images/binning.png}
+  \caption{}
+  \label{fig:binning}
+\end{figure}
+
+Having larger bins might lead to a better compression rate however it could lead to undesired behaviour when trying to detect anomalies with iForest. An outlier could be mapped to the same base as an inlier on all or some of it features. Having the same base on some features will make it harder to isolate the outlier meanwhile having identical bases on all features makes it impossible. The binning aswell leads to inliers being grouped on fewer points. This causes them to be isolated more easily, and thus labeled as outliers.   
+
+Isolation Forest is not fit for the large amount duplicates that is potentially created by compressing with generalized deduplication. Therefore, a more duplicate resistant version is proposed. The core idea of the new version is to utilize the amount of duplicates when building the tree. The amount is then used to adjust the score of an observation. ... \todo{Finish}       
+
+
+% amount features 
+% figure with grouped 
+% What is the new method, formulas, tweak log thingy. Training, testing.. 
+% - storing all train data in memory :( 
+% - how did we derive equations. One more for prins knud. 
+% 

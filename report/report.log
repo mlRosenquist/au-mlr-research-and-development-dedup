@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.16)  17 MAY 2022 14:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.16)  19 MAY 2022 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -956,55 +956,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (8.47473pt too wide) in paragraph at lines 12--12
-\OT1/ptm/m/n/5 tilh^^\rende 
- []
-
-
-Overfull \hbox (8.47473pt too wide) in paragraph at lines 12--12
-\OT1/ptm/m/n/5 tilh^^\rende 
- []
-
-) (./contents/related-work.tex
-
-LaTeX Warning: Marginpar on page 1 moved.
-
-
-Underfull \hbox (badness 3281) in paragraph at lines 16--17
-[]\OT1/ptm/m/n/10 Performing an-a-lyt-ics on com-pressed data is not an
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-) (./contents/method.tex
-Overfull \hbox (3.19984pt too wide) in paragraph at lines 1--1
-\OT1/ptm/m/n/5 method[]  
- []
-
-
-Overfull \hbox (3.19984pt too wide) in paragraph at lines 1--1
-\OT1/ptm/m/n/5 method[]  
- []
-
-) (./contents/experiments.tex [1{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+<images/rich_sketch_original.png, id=55, 735.74875pt x 423.5825pt>
+File: images/rich_sketch_original.png Graphic file (type png)
+<use images/rich_sketch_original.png>
+Package pdftex.def Info: images/rich_sketch_original.png  used on input line 22.
+(pdftex.def)             Requested size: 252.0pt x 145.0826pt.
+) (./contents/related-work.tex [1{/usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 
 pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/updmap/pdftex.map): invalid entry for `pcrr8rn': SlantFont/ExtendFont can be used only with embedded Type1 fonts
 
@@ -1088,13 +1045,77 @@ pdfTeX warning: pdflatex (file /usr/share/texlive/texmf-var/fonts/map/pdftex/upd
 }
 
 
-]) (./contents/results.tex
+ <./images/rich_sketch_original.png>]
+Underfull \hbox (badness 3281) in paragraph at lines 16--17
+[]\OT1/ptm/m/n/10 Performing an-a-lyt-ics on com-pressed data is not an
+ []
 
-LaTeX Warning: Marginpar on page 2 moved.
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+) (./contents/method.tex
+Overfull \hbox (3.19984pt too wide) in paragraph at lines 1--1
+\OT1/ptm/m/n/5 method[]  
+ []
+
+
+Overfull \hbox (3.19984pt too wide) in paragraph at lines 1--1
+\OT1/ptm/m/n/5 method[]  
+ []
+
+<../files/test.png, id=85, 484.81125pt x 294.09875pt>
+File: ../files/test.png Graphic file (type png)
+<use ../files/test.png>
+Package pdftex.def Info: ../files/test.png  used on input line 22.
+(pdftex.def)             Requested size: 252.0pt x 152.8694pt.
+<images/rich_sketch_bases.png, id=88, 715.67375pt x 419.5675pt>
+File: images/rich_sketch_bases.png Graphic file (type png)
+<use images/rich_sketch_bases.png>
+Package pdftex.def Info: images/rich_sketch_bases.png  used on input line 31.
+(pdftex.def)             Requested size: 252.0pt x 147.7343pt.
+<images/binning.png, id=89, 672.5125pt x 655.44875pt>
+File: images/binning.png Graphic file (type png)
+<use images/binning.png>
+Package pdftex.def Info: images/binning.png  used on input line 42.
+(pdftex.def)             Requested size: 126.0pt x 122.79633pt.
+
+Overfull \hbox (0.70479pt too wide) in paragraph at lines 49--49
+[][][]\OT1/ptm/m/n/5 Finish[]  
+ []
+
+
+Overfull \hbox (0.70479pt too wide) in paragraph at lines 49--49
+[][][]\OT1/ptm/m/n/5 Finish[]  
+ []
+
+[2 <../files/test.png> <./images/rich_sketch_bases.png> <./images/binning.png>]) (./contents/experiments.tex
+
+LaTeX Warning: Marginpar on page 3 moved.
+
+) (./contents/results.tex
+
+LaTeX Warning: Marginpar on page 3 moved.
 
 ) (./contents/conclusion.tex
 
-LaTeX Warning: Marginpar on page 2 moved.
+LaTeX Warning: Marginpar on page 3 moved.
 
 )
 Underfull \hbox (badness 3657) in paragraph at lines 89--89
@@ -1112,28 +1133,28 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
+[3
 
 ] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: FDB01EBF3B7BCB2E87B2F69E609EBCAE;1148.
+(rerunfilecheck)             Checksum: 3D871B93140CDAFBC0718A12353BCE10;1416.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30608 strings out of 480852
- 572796 string characters out of 5906872
- 1378147 words of memory out of 6000000
- 47425 multiletter control sequences out of 15000+600000
+ 30655 strings out of 480852
+ 573819 string characters out of 5906872
+ 1368262 words of memory out of 6000000
+ 47458 multiletter control sequences out of 15000+600000
  436652 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,9n,131p,816b,1330s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (2 pages, 62976 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (3 pages, 241512 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
