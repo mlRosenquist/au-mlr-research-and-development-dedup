@@ -1198,6 +1198,16 @@ INPUT ./contents/results.tex
 INPUT contents/results.tex
 INPUT ./contents/results.tex
 INPUT contents/results.tex
+INPUT ./images/performance_metrics.png
+INPUT ./images/performance_metrics.png
+INPUT images/performance_metrics.png
+INPUT ./images/performance_metrics.png
+INPUT ./images/performance_metrics.png
+INPUT ./images/performance_time.png
+INPUT ./images/performance_time.png
+INPUT images/performance_time.png
+INPUT ./images/performance_time.png
+INPUT ./images/performance_time.png
 INPUT ./contents/conclusion.tex
 INPUT contents/conclusion.tex
 INPUT ./contents/conclusion.tex

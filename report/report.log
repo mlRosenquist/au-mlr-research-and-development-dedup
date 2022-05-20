@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.16)  19 MAY 2022 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.16)  20 MAY 2022 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1113,6 +1113,16 @@ LaTeX Warning: Marginpar on page 3 moved.
 
 LaTeX Warning: Marginpar on page 3 moved.
 
+<images/performance_metrics.png, id=110, 741.77126pt x 419.5675pt>
+File: images/performance_metrics.png Graphic file (type png)
+<use images/performance_metrics.png>
+Package pdftex.def Info: images/performance_metrics.png  used on input line 11.
+(pdftex.def)             Requested size: 252.0pt x 142.53581pt.
+<images/performance_time.png, id=111, 384.43625pt x 279.0425pt>
+File: images/performance_time.png Graphic file (type png)
+<use images/performance_time.png>
+Package pdftex.def Info: images/performance_time.png  used on input line 18.
+(pdftex.def)             Requested size: 201.60077pt x 146.33344pt.
 ) (./contents/conclusion.tex
 
 LaTeX Warning: Marginpar on page 3 moved.
@@ -1133,9 +1143,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
-
-] (./report.aux)
+[3 <./images/performance_metrics.png> <./images/performance_time.png>] (./report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 3D871B93140CDAFBC0718A12353BCE10;1416.
 Package logreq Info: Writing requests to 'report.run.xml'.
@@ -1143,18 +1151,18 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30655 strings out of 480852
- 573819 string characters out of 5906872
- 1368262 words of memory out of 6000000
- 47458 multiletter control sequences out of 15000+600000
+ 30673 strings out of 480852
+ 574347 string characters out of 5906872
+ 1368326 words of memory out of 6000000
+ 47472 multiletter control sequences out of 15000+600000
  436652 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,9n,131p,816b,1330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 241512 bytes).
+Output written on report.pdf (3 pages, 267455 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

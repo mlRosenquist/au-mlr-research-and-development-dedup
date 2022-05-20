@@ -7,15 +7,32 @@ Creation-Date: 2022-05-13T10:42:58+02:00
 ===== Agenda =====
 
 ==== What I have looked at: ====
-[ ] Look at 3-4 different outlier data sets. Dont do timing. But get metrics for each in nice table. 
-	[ ] Decide datasets- 
-		[ ] PenDigits
-		[ ] WBC - scaled * 10
-		[ ] Shuttle
-		[ ] Waveform - scaled * 10
+[*] Look at 3-4 different outlier data sets. Dont do timing. But get metrics for each in nice table. 
+	[*] Decide datasets- 
+		[*] PenDigits
+		[*] WBC - scaled * 10
+		[*] Shuttle
+		[*] Waveform - scaled * 10
 	[*] sklearn extention work on more dimensions
-	[ ] implement way to compare metrics from multiple datasets. Or make multiple notebooks and manually create table. 
-		[ ] Manually create table
+	[*] implement way to compare metrics from multiple datasets. Or make multiple notebooks and manually create table. 
+		[*] Manually create table
+	[ ] Report writing 
+		[*] Background
+			[*] GD
+			[*] Isolation Forest
+		[ ] Related Work
+			[ ] Different papers
+			[ ] Should i include this in introduciton. I think it makes sense. 
+		[ ] Method
+			[ ] Isolation Forest on GD compressed data
+			[ ] DupRes isolation forest
+				[ ] Want to describe how we derived formulas. One more for prince ...
+			[ ] Does figures makes sense
+		[ ] Experiments
+			[ ] ...
+		[ ] Results 
+			[*] Metrics of diffrent models on different datasets 
+			[ ] Time comparison on synthetic dataset. Its waaay slower. 
 
 ==== What I have not looked at: ====
 
@@ -25,5 +42,55 @@ Creation-Date: 2022-05-13T10:42:58+02:00
 
 ====== Next Steps: ======
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. project: falde deteker i eu, ikke sikkert med eu 
+
+2. project fertitlitet. Samarbejde med viti
+
+3. Lymfeknude. Aarhus hospital 
+
+4. Frit inden for distributed learning
+	a. kompleksitet
+	b. system interop
+	c. Data interop
+	d. sikkerhed
+
+Samarbejde med: 
+- Tager problemstilling og tweaker i forhold til interesse
+- Vigtigst er interesse 
 
 
