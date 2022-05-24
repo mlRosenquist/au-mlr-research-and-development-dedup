@@ -13,6 +13,7 @@ Trees are built by selecting a random feature and then selecting a random value 
 
 \begin{equation}
   s(x,n) = 2^{-\frac{E(h(x))}{c(n)}}
+  \label{eq:org_score}
 \end{equation}
 
 $E(h(x))$ is the average length from the root node to the specific data point. This is the average over a group of trees. $c(n)$ is the average length from the root node to an external node. The anomaly score $s$ is between 0 and 1.   
