@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.16)  20 MAY 2022 11:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.16)  24 MAY 2022 13:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -839,7 +839,11 @@ File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 \@quotelevel=\count449
 \@quotereset=\count450
- (./report.aux)
+ (./report.aux
+
+LaTeX Warning: Label `fig:binning' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -1090,22 +1094,27 @@ File: images/rich_sketch_bases.png Graphic file (type png)
 <use images/rich_sketch_bases.png>
 Package pdftex.def Info: images/rich_sketch_bases.png  used on input line 31.
 (pdftex.def)             Requested size: 252.0pt x 147.7343pt.
-<images/binning.png, id=89, 672.5125pt x 655.44875pt>
-File: images/binning.png Graphic file (type png)
-<use images/binning.png>
-Package pdftex.def Info: images/binning.png  used on input line 42.
-(pdftex.def)             Requested size: 126.0pt x 122.79633pt.
-
-Overfull \hbox (0.70479pt too wide) in paragraph at lines 49--49
+<images/binning-1dev.png, id=89, 685.56125pt x 676.5275pt>
+File: images/binning-1dev.png Graphic file (type png)
+<use images/binning-1dev.png>
+Package pdftex.def Info: images/binning-1dev.png  used on input line 42.
+(pdftex.def)             Requested size: 126.0pt x 124.3401pt.
+<images/binning-2dev.png, id=90, 675.52374pt x 662.475pt>
+File: images/binning-2dev.png Graphic file (type png)
+<use images/binning-2dev.png>
+Package pdftex.def Info: images/binning-2dev.png  used on input line 49.
+(pdftex.def)             Requested size: 126.0pt x 123.5668pt.
+[2 <../files/test.png> <./images/rich_sketch_bases.png> <./images/binning-1dev.png> <./images/binning-2dev.png>]
+Overfull \hbox (0.70479pt too wide) in paragraph at lines 56--56
 [][][]\OT1/ptm/m/n/5 Finish[]  
  []
 
 
-Overfull \hbox (0.70479pt too wide) in paragraph at lines 49--49
+Overfull \hbox (0.70479pt too wide) in paragraph at lines 56--56
 [][][]\OT1/ptm/m/n/5 Finish[]  
  []
 
-[2 <../files/test.png> <./images/rich_sketch_bases.png> <./images/binning.png>]) (./contents/experiments.tex
+) (./contents/experiments.tex
 
 LaTeX Warning: Marginpar on page 3 moved.
 
@@ -1113,16 +1122,16 @@ LaTeX Warning: Marginpar on page 3 moved.
 
 LaTeX Warning: Marginpar on page 3 moved.
 
-<images/performance_metrics.png, id=110, 741.77126pt x 419.5675pt>
+<images/performance_metrics.png, id=113, 741.77126pt x 419.5675pt>
 File: images/performance_metrics.png Graphic file (type png)
 <use images/performance_metrics.png>
 Package pdftex.def Info: images/performance_metrics.png  used on input line 11.
 (pdftex.def)             Requested size: 252.0pt x 142.53581pt.
-<images/performance_time.png, id=111, 384.43625pt x 279.0425pt>
+<images/performance_time.png, id=114, 406.51875pt x 279.0425pt>
 File: images/performance_time.png Graphic file (type png)
 <use images/performance_time.png>
 Package pdftex.def Info: images/performance_time.png  used on input line 18.
-(pdftex.def)             Requested size: 201.60077pt x 146.33344pt.
+(pdftex.def)             Requested size: 201.60077pt x 138.37979pt.
 ) (./contents/conclusion.tex
 
 LaTeX Warning: Marginpar on page 3 moved.
@@ -1144,6 +1153,9 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 [3 <./images/performance_metrics.png> <./images/performance_time.png>] (./report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 3D871B93140CDAFBC0718A12353BCE10;1416.
 Package logreq Info: Writing requests to 'report.run.xml'.
@@ -1151,18 +1163,18 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30673 strings out of 480852
- 574347 string characters out of 5906872
- 1368326 words of memory out of 6000000
- 47472 multiletter control sequences out of 15000+600000
+ 30681 strings out of 480852
+ 574584 string characters out of 5906872
+ 1368357 words of memory out of 6000000
+ 47478 multiletter control sequences out of 15000+600000
  436652 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,9n,131p,816b,1330s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (3 pages, 267455 bytes).
+Output written on report.pdf (3 pages, 290950 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

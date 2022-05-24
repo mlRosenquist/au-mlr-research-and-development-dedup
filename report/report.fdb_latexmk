@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber report"] 1653039506 "report.bcf" "report.bbl" "report" 1653040609
+["biber report"] 1653039506 "report.bcf" "report.bbl" "report" 1653390329
   "misc/references.bib" 1652789756 3041 d89f40b21ac148082fe846f55ebc134d ""
-  "report.bcf" 1653040609 107168 a64abc3bd81dd848f0a324c8cd326fe6 "pdflatex"
+  "report.bcf" 1653390329 107168 a64abc3bd81dd848f0a324c8cd326fe6 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1653040607 "/home/mlrosenquist/repos/au-mlr-research-and-development-dedup/report/report.tex" "report.pdf" "report" 1653040609
+["pdflatex"] 1653390327 "/home/mlrosenquist/repos/au-mlr-research-and-development-dedup/report/report.tex" "report.pdf" "report" 1653390329
   "../files/test.png" 1652954543 259506 51a0a9b9dd9174058d62a00e4f5764d5 ""
   "/home/mlrosenquist/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1637101714 1343366 45e957c54084a63c56445bf07d2fd681 ""
   "/home/mlrosenquist/repos/au-mlr-research-and-development-dedup/report/report.tex" 1651838398 2341 decf36f584f95b09732d4d819b1a3de5 ""
@@ -207,18 +207,19 @@
   "contents/conclusion.tex" 1651838398 145 e750344ebd2bb7c3f740b124919f2cfe ""
   "contents/experiments.tex" 1653039862 508 fdf871e15319598635c263df1fe5ef13 ""
   "contents/introduction.tex" 1652787564 447 cc4eb47e274628aed8d5d7dcf095fa38 ""
-  "contents/method.tex" 1652966675 3770 ac8d111a63b356ba8c84d8ff0684c0ce ""
+  "contents/method.tex" 1653390324 3917 61d582cbd0f3dcc855b3a2ff7261fed9 ""
   "contents/related-work.tex" 1652789776 1460 01f5e214efb8ed0eefc4ac777baed113 ""
-  "contents/results.tex" 1653040532 385 3f15b3b588ace3f6320ebdea3ed7678a ""
-  "images/binning.png" 1652963166 62690 91aea9ba9c6e39a484a9febc0b0206d0 ""
-  "images/performance_metrics.png" 1653039475 23904 7c36152b62e6293fbe4a5d382a60813d ""
-  "images/performance_time.png" 1653040602 6785 6fd05cdbf523d7868fd3235bac6a18ea ""
+  "contents/results.tex" 1653389043 385 3f15b3b588ace3f6320ebdea3ed7678a ""
+  "images/binning-1dev.png" 1653390231 51904 4a3941e31e655cfb0c9aac39518500f6 ""
+  "images/binning-2dev.png" 1653390278 38797 441bf4e55a14be54cb75e5bb6a5321f6 ""
+  "images/performance_metrics.png" 1653389010 24138 4e15e80849c23911f5a52b4ddb2ce5cd ""
+  "images/performance_time.png" 1653389022 8918 9472f880bea1205d3c99e6918767340d ""
   "images/rich_sketch_bases.png" 1652960028 46765 7e15909ca22589e2a7ca5c7b7364eaa2 ""
   "images/rich_sketch_original.png" 1652959505 50944 08584fce5b5315f18778b832dd749dab ""
-  "report.aux" 1653040609 9038 d31acb909a99c8774daaf34ad6bcc6d9 "pdflatex"
+  "report.aux" 1653390329 9274 f4822dcadb5e43ec300e3d2d85fd85f5 "pdflatex"
   "report.bbl" 1653039507 14061 4e5f2f2519e861c3042faeff12623995 "biber report"
-  "report.out" 1653040609 1416 3d871b93140cdafbc0718a12353bce10 "pdflatex"
-  "report.run.xml" 1653040609 2324 0e0d3525b564b14dc92b00896d3f5cb9 "pdflatex"
+  "report.out" 1653390329 1416 3d871b93140cdafbc0718a12353bce10 "pdflatex"
+  "report.run.xml" 1653390329 2324 0e0d3525b564b14dc92b00896d3f5cb9 "pdflatex"
   "report.tex" 1651838398 2341 decf36f584f95b09732d4d819b1a3de5 ""
   (generated)
   "report.aux"
