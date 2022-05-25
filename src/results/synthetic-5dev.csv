@@ -1,0 +1,4 @@
+,name,deviation_bits,test_accuracy_score,test_f1_score,test_recall_score,test_roc_auc_score,training_time,prediction_time
+0,Isolation Forest Bases,5,1.0,1.0,1.0,1.0,0.07363897562026978,0.04457215666770935
+1,Isolation Forest Bases - extended,5,1.0,1.0,1.0,1.0,0.08494566679000855,0.05328469276428223
+2,Isolation Forest Original,5,0.7410638297872341,0.8433288037347055,0.7295555555555555,0.8647777777777779,0.07713971734046936,0.06894901394844055

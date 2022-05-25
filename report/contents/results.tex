@@ -27,64 +27,54 @@
   \setcellgapes{1ex}\makegapedcells
   \begin{tabular}{*{10}{|c}|c|}
     \hline
-    \multirowthead{2}{Models} & \multirowthead{2}{Dataset} & \multirowthead{2}{Deviation bits} & \multicolumn{4}{c|}{\bfseries Metrics} & \multicolumn{2}{c|}{\bfseries Time} & \multirowthead{2}{Compression} & \multirowthead{2}{Memory Accesed}                                 \\
+    \multirowthead{2}{Model} & \multirowthead{2}{Dataset} & \multirowthead{2}{Dev. bits} & \multicolumn{4}{c|}{\bfseries Metric} & \multicolumn{2}{c|}{\bfseries Time} & \multirowthead{2}{Compression Rate} & \multirowthead{2}{Memory Accessed}                                              \\
     \cline{4-9}
-                              &                            &                                   & \textbf{Acc}                           & \textbf{f1}                         & \textbf{rec}                   & \textbf{roc}                      & \textbf{T} & \textbf{E} &     \\
+                             &                            &                              & \textbf{acc.}                         & \textbf{f1}                         & \textbf{rec.}                       & \textbf{roc}                       & \textbf{T(ms)} & \textbf{E(ms)} &          \\
     \hline
-    \multirow{9}{*}{Original} & \multirow{3}{*}{Synthetic} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{2-10}
-                              & \multirow{3}{*}{Pendigits} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{2-10}
-                              & \multirow{3}{*}{WBC}       & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    Original                 & Synthetic                  &                              & 0.73                                  & 0.84                                & 0.72                                & 0.86                               & 78.8           & 70.9           & 0\%      & 100\% \\
+
+    \cline{2-11}
+                             & Pendigits                  &                              & 0.54                                  & 0.70                                & 0.54                                & 0.77                               & 93.7           & 55.3           & 0\%      & 100\% \\
+
+    \cline{2-11}
+                             & WBC                        &                              & 0.94                                  & 0.97                                & 0.94                                & 0.97                               & 75.2           & 22.0           & 0\%      & 100\% \\
     \hline
 
-    \multirow{9}{*}{Bases}    & \multirow{3}{*}{Synthetic} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{2-10}
-                              & \multirow{3}{*}{Pendigits} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{2-10}
-                              & \multirow{3}{*}{WBC}       & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \multirow{9}{*}{Bases}   & \multirow{3}{*}{Synthetic} & 1                            & 0.72                                  & 0.83                                & 0.71                                & 0.86                               & 80.2           & 51.2           & 12.5\% & 87.5\% \\
+    \cline{3-11}
+                             &                            & 3                            & 0.90                                  & 0.95                                & 0.90                                & 0.95                               & 74.6           & 46.4           & 37.5\% & 62.5\% \\
+    \cline{3-11}
+                             &                            & 6                            & 0.04                                  & 0.00                                & 0.00                                & 0.5                                & 74.3           & 45.0           & 75.0\% & 25.0\% \\
+    \cline{2-11}
+                             & \multirow{3}{*}{Pendigits} & 1                            & 0.53                                  & 0.70                                & 0.53                                & 0.77                               & 95.1           & 55.7           & 12.5\% & 87.5\% \\
+    \cline{3-11}
+                             &                            & 3                            & 0.51                                  & 0.67                                & 0.51                                & 0.75                               & 94.3           & 55.9           & 37.5\% & 62.5\% \\
+    \cline{3-11}
+                             &                            & 6                            & 0.42                                  & 0.59                                & 0.41                                & 0.68                               & 95.3           & 56.0           & 75.0\% & 25.0\% \\
+    \cline{2-11}
+                             & \multirow{3}{*}{WBC}       & 1                            & 0.94                                  & 0.97                                & 0.94                                & 0.97                               & 75.3           & 21.6           & 12.5\% & 87.5\% \\
+    \cline{3-11}
+                             &                            & 3                            & 0.94                                  & 0.97                                & 0.94                                & 0.97                               & 75.6           & 21.6           & 37.5\% & 62.5\% \\
+    \cline{3-11}
+                             &                            & 6                            & 0.95                                  & 0.97                                & 0.94                                & 0.97                               & 74.8           & 21.4           & 75.0\% & 25.0\% \\
     \hline
-    \multirow{9}{*}{DupRes}   & \multirow{3}{*}{Synthetic} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{2-10}
-                              & \multirow{3}{*}{Pendigits} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{2-10}
-                              & \multirow{3}{*}{WBC}       & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
-    \cline{3-10}
-                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \multirow{9}{*}{DupRes}  & \multirow{3}{*}{Synthetic} & 1                            & 0.87                                  & 0.93                                & 0.86                                & 0.93                               & 90.4           & 59.7           & 12.5\% & 87.5\% + count table \\
+    \cline{3-11}
+                             &                            & 3                            & 0.92                                  & 0.95                                & 0.91                                & 0.96                               & 85.8           & 55.4           & 37.5\% & 62.5\% + count table \\
+    \cline{3-11}
+                             &                            & 6                            & 0.98                                  & 0.99                                & 1.00                                & 0.75                               & 86.5           & 53.4           & 75.0\% & 25.0\% + count table \\
+    \cline{2-11}
+                             & \multirow{3}{*}{Pendigits} & 1                            & 0.54                                  & 0.70                                & 0.53                                & 0.76                               & 135            & 282            & 12.5\% & 87.5\% + count table \\
+    \cline{3-11}
+                             &                            & 3                            & 0.50                                  & 0.67                                & 0.50                                & 0.75                               & 135            & 286            & 37.5\% & 62.5\% + count table \\
+    \cline{3-11}
+                             &                            & 6                            & 0.80                                  & 0.89                                & 0.80                                & 0.77                               & 145            & 131            & 75.0\% & 25.0\% + count table \\
+    \cline{2-11}
+                             & \multirow{3}{*}{WBC}       & 1                            & 0.94                                  & 0.97                                & 0.94                                & 0.97                               & 86.9           & 23.4           & 12.5\% & 87.5\% + count table \\
+    \cline{3-11}
+                             &                            & 3                            & 0.94                                  & 0.97                                & 0.94                                & 0.97                               & 87.7           & 23.7           & 37.5\% & 62.5\% + count table \\
+    \cline{3-11}
+                             &                            & 6                            & 0.95                                  & 0.97                                & 0.94                                & 0.97                               & 85.6           & 23.5           & 75.0\% & 25.0\% + count table \\
     \hline
   \end{tabular}
   \caption{Table of stuff}

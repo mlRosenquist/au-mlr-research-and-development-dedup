@@ -3,10 +3,16 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/src/venv" />
-      <excludeFolder url="file://$MODULE_DIR$/src/venv39" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.9 (au-mlr-research-and-development-dedup)" jdkType="Python SDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="scikit-learn" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>
 </module>
