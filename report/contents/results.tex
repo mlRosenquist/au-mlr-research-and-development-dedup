@@ -6,6 +6,7 @@
 
 % What to include:
 
+
 \begin{figure}
   \centering
   \includegraphics[width=\linewidth]{images/performance_metrics.png}
@@ -19,3 +20,73 @@
   \caption{}
   \label{fig:performance_time}
 \end{figure}
+
+\begin{table*}[t]
+  \centering\sffamily
+  \renewcommand{\theadfont}{\normalsize\bfseries}
+  \setcellgapes{1ex}\makegapedcells
+  \begin{tabular}{*{10}{|c}|c|}
+    \hline
+    \multirowthead{2}{Models} & \multirowthead{2}{Dataset} & \multirowthead{2}{Deviation bits} & \multicolumn{4}{c|}{\bfseries Metrics} & \multicolumn{2}{c|}{\bfseries Time} & \multirowthead{2}{Compression} & \multirowthead{2}{Memory Accesed}                                 \\
+    \cline{4-9}
+                              &                            &                                   & \textbf{Acc}                           & \textbf{f1}                         & \textbf{rec}                   & \textbf{roc}                      & \textbf{T} & \textbf{E} &     \\
+    \hline
+    \multirow{9}{*}{Original} & \multirow{3}{*}{Synthetic} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{2-10}
+                              & \multirow{3}{*}{Pendigits} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{2-10}
+                              & \multirow{3}{*}{WBC}       & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \hline
+
+    \multirow{9}{*}{Bases}    & \multirow{3}{*}{Synthetic} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{2-10}
+                              & \multirow{3}{*}{Pendigits} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{2-10}
+                              & \multirow{3}{*}{WBC}       & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \hline
+    \multirow{9}{*}{DupRes}   & \multirow{3}{*}{Synthetic} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{2-10}
+                              & \multirow{3}{*}{Pendigits} & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{2-10}
+                              & \multirow{3}{*}{WBC}       & 1                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 3                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \cline{3-10}
+                              &                            & 5                                 &                                        &                                     &                                &                                   &            &            &   & \\
+    \hline
+  \end{tabular}
+  \caption{Table of stuff}
+  \label{tab:comparison}
+\end{table*}

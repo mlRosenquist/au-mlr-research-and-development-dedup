@@ -38,16 +38,16 @@ The bases of GD compressed data will inherintly be grouped. Stripping the deviat
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.5\linewidth]{images/binning-1dev.png}
-  \caption{}
-  \label{fig:binning}
-\end{figure}
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.5\linewidth]{images/binning-2dev.png}
-  \caption{}
-  \label{fig:binning}
+  \begin{minipage}{0.45\linewidth}
+      \centering
+      \includegraphics[width=\textwidth]{images/binning-1dev.png}
+      \caption{first figure}
+  \end{minipage}\hfill
+  \begin{minipage}{0.45\linewidth}
+      \centering
+      \includegraphics[width=\textwidth]{images/binning-2dev.png}
+      \caption{second figure}
+  \end{minipage}
 \end{figure}
 
 Having larger bins might lead to a better compression rate however it could lead to undesired behaviour when trying to detect anomalies with iForest. An outlier could be mapped to the same base as an inlier on all or some of it features. Having the same base on some features will make it harder to isolate the outlier meanwhile having identical bases on all features makes it impossible. The binning aswell leads to inliers being grouped on fewer points. This causes them to be isolated more easily, and thus labeled as outliers.   
