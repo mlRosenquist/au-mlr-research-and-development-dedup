@@ -83,8 +83,8 @@ Creation-Date: 2022-05-13T10:42:58+02:00
 
 3. Lymfeknude. Aarhus hospital 
 
-4. Frit inden for distributed learning
-	a. kompleksitet
+4. Frit inden for federating learning
+	a. message kompleksitet
 	b. system interop
 	c. Data interop
 	d. sikkerhed
