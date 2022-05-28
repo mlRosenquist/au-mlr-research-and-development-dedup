@@ -34,7 +34,7 @@ Isolation forest is then to be performed on the transformed version of the data 
 
 
 \subsection{DupRes Isolation Forest}
-The bases of GD compressed data will inherintly be grouped. Stripping the deviation of each data point will result in data points being placed in bins. This binning is illustrated on figure \ref*{fig:binning}. The graphic shows the bins created with different amount of deviation bits. The circles are the bases. The dotted lines are enclosing areas where data points in an area will be mapped to the closest base in the negative direction. Having a larger amount of deviation bits is leading to larger bins. 
+The bases of GD compressed data will inherintly be grouped. Stripping the deviation of each data point will result in data points being placed in bins. This binning is illustrated on Figure \ref{fig:binning-1} and \ref{fig:binning-2}. The graphics shows the bins created with different amount of deviation bits. The circles are samples. The dotted lines are enclosing areas where data points in an area will be mapped to the closest base in the negative direction. The arrows illustrate the base each data point will be mapped to. Having a larger amount of deviation bits is leading to larger bins. 
 
 \begin{figure}
   \centering
@@ -42,11 +42,13 @@ The bases of GD compressed data will inherintly be grouped. Stripping the deviat
       \centering
       \includegraphics[width=\textwidth]{images/binning-1dev.png}
       \caption{first figure}
+      \label{fig:binning-1}
   \end{minipage}\hfill
   \begin{minipage}{0.45\linewidth}
       \centering
       \includegraphics[width=\textwidth]{images/binning-2dev.png}
-      \caption{second figure}
+      \caption{first figure}
+      \label{fig:binning-2}
   \end{minipage}
 \end{figure}
 

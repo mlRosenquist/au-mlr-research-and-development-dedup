@@ -1,10 +1,1 @@
-\unfinished{write conclusion}
-
-% Notes: 
-% Summary of the work
-% Key Observations
-% Limitation and future work
-
-% -----------
-
-% What to include:
+This paper looked into performing anomaly detection on compressed data. Generalized deduplication was the compression algorithm of choise, that enables direct analysis of the bases derived from the transformed data. The amount of compression controlled the clustering and performance of the anomaly detection models. The duplicates created by the algorithm is taken advantage of in an extended version of Isolation Forest. Comparing the proposed model with original Isolation Forest it showed that utilizing the duplicates improves classification performance. However, the improved scoring is a tradeoff with memory usage and execution time. A general observation is that performing Isolation Forest on the uncompressed data versus compressed had no large descrepancies in performance.    
