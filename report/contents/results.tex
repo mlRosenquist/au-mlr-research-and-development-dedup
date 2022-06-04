@@ -1,3 +1,63 @@
+\begin{table*}[t]
+  \centering\sffamily
+  \renewcommand{\theadfont}{\normalsize\bfseries}
+  \setcellgapes{1ex}\makegapedcells
+  \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
+    \multirowthead{2}{Model} & \multirowthead{2}{Dataset} & \multirowthead{2}{Dev. bits} & \multicolumn{4}{c|}{\bfseries Metric} & \multicolumn{2}{c|}{\bfseries Time} & \multicolumn{2}{c|}{\bfseries Lossy Compression Rate}                                                                                                       \\
+    \cline{4-11}
+                             &                            &                              & \textbf{acc.}                         & \textbf{f1}                         & \textbf{rec.}                                         & \textbf{prec.} & \textbf{T(ms)} & \textbf{E(ms)} & \textbf{Rate} & \textbf{Memory Overhead (bytes)} \\
+    \hhline{|=|=|=|=|=|=|=|=|=|=|=|}
+    Original                 & Synthetic                  &                              & 0.75                                  & 0.85                                & 0.73                                                  & 1              & 78.8           & 51.4           & 1             & 0                                \\
+
+    \clineB{2-11}{2.5}
+                             & Pendigits                  &                              & 0.54                                  & 0.70                                & 0.54                                                  & 1              & \textbf{93.7}  & \textbf{55.3}  & 1             & 0                                \\
+
+    \clineB{2-11}{2.5}
+                             & WBC                        &                              & 0.94                                  & 0.97                                & 0.94                                                  & 1              & 75.2           & 22.0           & 1             & 0                                \\
+    \hhline{|=|=|=|=|=|=|=|=|=|=|=|}
+
+    \multirow{9}{*}{Bases}   & \multirow{3}{*}{Synthetic} & 1                            & 0.72                                  & 0.83                                & 0.71                                                  & 1              & 80.2           & 51.2           & 0.35          & 0                                \\
+    \cline{3-11}
+                             &                            & 3                            & 0.90                                  & 0.95                                & 0.90                                                  & 1              & 74.6           & 46.4           & 0.08          & 0                                \\
+    \cline{3-11}
+                             &                            & 6                            & 0.04                                  & 0                                   & 0                                                     & \textbf{0}     & 74.3           & 45.0           & 0.01          & 0                                \\
+    \clineB{2-11}{2.5}
+                             & \multirow{3}{*}{Pendigits} & 1                            & \textbf{0.53}                         & 0.70                                & 0.53                                                  & 1              & 95.1           & 55.7           & 0.875         & 0                                \\
+    \cline{3-11}
+                             &                            & 3                            & \textbf{0.51}                         & 0.67                                & 0.51                                                  & 1              & 94.3           & 55.9           & 0.625         & 0                                \\
+    \cline{3-11}
+                             &                            & 6                            & \textbf{0.42}                         & 0.59                                & 0.41                                                  & 1              & 95.3           & 56.0           & 0.06          & 0                                \\
+    \clineB{2-11}{2.5}
+                             & \multirow{3}{*}{WBC}       & 1                            & 0.94                                  & 0.97                                & 0.94                                                  & 1              & 75.3           & 21.6           & 0.58          & 0                                \\
+    \cline{3-11}
+                             &                            & 3                            & 0.94                                  & 0.97                                & 0.94                                                  & 1              & 75.6           & 21.6           & 0.41          & 0                                \\
+    \cline{3-11}
+                             &                            & 6                            & 0.95                                  & 0.97                                & 0.94                                                  & 1              & 74.8           & 21.4           & 0.02          & 0                                \\
+    \hhline{|=|=|=|=|=|=|=|=|=|=|=|}
+    \multirow{9}{*}{DupRes}  & \multirow{3}{*}{Synthetic} & 1                            & 0.87                                  & 0.93                                & 0.87                                                  & 1              & 90.4           & 59.7           & 0.35          & 195                              \\
+    \cline{3-11}
+                             &                            & 3                            & 0.92                                  & 0.95                                & 0.91                                                  & 1              & 85.8           & 55.4           & 0.08          & 56                               \\
+    \cline{3-11}
+                             &                            & 6                            & 0.98                                  & 0.99                                & 1.00                                                  & \textbf{0.98}  & 86.5           & 53.4           & 0.01          & 6                                \\
+    \clineB{2-11}{2.5}
+                             & \multirow{3}{*}{Pendigits} & 1                            & \textbf{0.54}                         & 0.70                                & 0.53                                                  & 1              & \textbf{135}   & \textbf{282}   & 0.875         & 118410                           \\
+    \cline{3-11}
+                             &                            & 3                            & \textbf{0.50}                         & 0.67                                & 0.50                                                  & 1              & 135            & 286            & 0.625         & 86680                            \\
+    \cline{3-11}
+                             &                            & 6                            & \textbf{0.80}                         & 0.89                                & 0.80                                                  & 1              & \textbf{145}   & \textbf{131}   & 0.06          & 4245                             \\
+    \clineB{2-11}{2.5}
+                             & \multirow{3}{*}{WBC}       & 1                            & 0.94                                  & 0.97                                & 0.94                                                  & 1              & 86.9           & 23.4           & 0.58          & 5123                             \\
+    \cline{3-11}
+                             &                            & 3                            & 0.94                                  & 0.97                                & 0.94                                                  & 1              & 87.7           & 23.7           & 0.41          & 3713                             \\
+    \cline{3-11}
+                             &                            & 6                            & 0.95                                  & 0.97                                & 0.94                                                  & 1              & 85.6           & 23.5           & 0.02          & 153                              \\
+    \hline
+  \end{tabular}
+  \caption{Table containing results of the conducted experiments. The original model performing iForest on uncompressed data. Bases performing iForest on the compressed Data. DupRes which performs extended iForest on the compressed data. Shows the performance metrics(accuracy, f1, recall and precision) and execution time of the various datasets with different amount of compression.}
+  \label{tab:comparison}
+\end{table*}
+
 This section will present and interpret the results from the conducted experiments. There are many experimental setups. Three different models evaluated on five datasets with varying amount of compression. Then in addition to that, there is many metrics to be looked at. To illustrate this comprehensive amount of results, Table \ref{tab:comparison} has been constructed. The table contains the results of three of the five datasets. The table will be referred to repeatedly in the following examination of the results. The values that are referred to is marked with bold.
 
 \subsection{Execution time}
@@ -24,64 +84,7 @@ The amount of deviation bits shows a pattern. Looking at the Pendigits dataset t
   \label{fig:performance_metrics}
 \end{figure}
 \subsection{Compression and Memory}
-The two right-most column in the table describes the compression rate and memory accessed for each model. As the features of all datasets is 8-bit numbers the compression rate is quite simple to calculate: $c_{rate}=\frac{d}{8}$, where $d$ is the amount of deviation bits. The original model naturally has no compression. The two others compression varies on the their amount of deviation bits. $d=6$ for both of the models catches all outliers except on the synthetic data set as described previously. This is a quite significant compression rate of 75\%. Memory Accessed describe how much of the original data that is accessed. It is kind of the reverse of the compression rate. Most interestingly is the DupRes which also has the count table. This is to illustrate that it needs to store the table of uniques and their counts in memory. This shows the trade off with DupRes and performing original Isolation Forest on the bases. They have the same compression rate. However, DupRes needs additional memory to store the table. As seen in the results, the training time spent creating the table and the testing time looking up in the table is not to be neglected.
+The two right-most column in the table describes the compression rate and memory overhead for each model. The compression rate is calculated by dividing the number of compressed bits with the original number of bits. As each feature in every dataset can be represented as a byte, the uncompressed size is: $size_{org} = N \cdot 8 \cdot f $, where $N$ is the amount of samples and $f$ is the amount of features. The lossy compression, without deviation, will then be: $size_{lossy}=N_{unique} \cdot (8-d) \cdot f$, where $N_{unique}$ is the amount of unique samples and $d$ is the amount of deviation bits. The calculation for $size_{lossy}$ is simplified in the sense, that it is neglected that features accross samples can be the same. In the simplified version we only look at the uniqueness accross an entire sample. Therefore, the actual compression rate will be better than despicted in the table. The memory overhead covers the amount of bytes necessary to contain the table of uniques used in DupRes. The calculation is $overhead = (f \cdot (8-d) \cdot N_{unique} + 8 \cdot N_{unique})/8$. This calculation covers storing each unique sample and an eight bits number to store the count. This calculation is simplified in a similar manner to the lossy compression, but aswell under the assumption that the count does not exceed eight bits.          
 
-\begin{table*}[t]
-  \centering\sffamily
-  \renewcommand{\theadfont}{\normalsize\bfseries}
-  \setcellgapes{1ex}\makegapedcells
-  \begin{tabular}{*{10}{|c}|c|}
-    \hline
-    \multirowthead{2}{Model} & \multirowthead{2}{Dataset} & \multirowthead{2}{Dev. bits} & \multicolumn{4}{c|}{\bfseries Metric} & \multicolumn{2}{c|}{\bfseries Time} & \multirowthead{2}{Compression Rate} & \multirowthead{2}{Memory Accessed}                                                                   \\
-    \cline{4-9}
-                             &                            &                              & \textbf{acc.}                         & \textbf{f1}                         & \textbf{rec.}                       & \textbf{prec.}                     & \textbf{T(ms)} & \textbf{E(ms)} &                               \\
-    \hline
-    Original                 & Synthetic                  &                              & 0.75                                  & 0.85                                & 0.73                                & 1                                  & 78.8           & 51.4           & 0\%    & 100\%                \\
+Looking at the table the original model naturally has no compression. The two others compression varies on the their amount of deviation bits. $d=6$ for both of the models catches all outliers except on the synthetic data set as described previously. This is a quite significant compression rate of 0.06 on Pendigits and 0.02 on WBC.  The memory overhead shows the trade off with DupRes and performing original Isolation Forest on the bases. They have the same compression rate. However, DupRes needs additional memory to store the table. The trend between amount of deviation bits and memory overhead is clearly seen in the table. This emphasize the fact that DupRes is penalized when there is a low amount of duplicates. The overhead combined with the time spent creating the table and the testing time looking up in the table is not to be neglected.  
 
-    \cline{2-11}
-                             & Pendigits                  &                              & 0.54                                  & 0.70                                & 0.54                                & 1                                  & \textbf{93.7}  & \textbf{55.3}  & 0\%    & 100\%                \\
-
-    \cline{2-11}
-                             & WBC                        &                              & 0.94                                  & 0.97                                & 0.94                                & 1                                  & 75.2           & 22.0           & 0\%    & 100\%                \\
-    \hline
-
-    \multirow{9}{*}{Bases}   & \multirow{3}{*}{Synthetic} & 1                            & 0.72                                  & 0.83                                & 0.71                                & 1                                  & 80.2           & 51.2           & 12.5\% & 87.5\%               \\
-    \cline{3-11}
-                             &                            & 3                            & 0.90                                  & 0.95                                & 0.90                                & 1                                  & 74.6           & 46.4           & 37.5\% & 62.5\%               \\
-    \cline{3-11}
-                             &                            & 6                            & 0.04                                  & 0                                   & 0                                   & \textbf{0}                         & 74.3           & 45.0           & 75.0\% & 25.0\%               \\
-    \cline{2-11}
-                             & \multirow{3}{*}{Pendigits} & 1                            & \textbf{0.53}                         & 0.70                                & 0.53                                & 1                                  & 95.1           & 55.7           & 12.5\% & 87.5\%               \\
-    \cline{3-11}
-                             &                            & 3                            & \textbf{0.51}                         & 0.67                                & 0.51                                & 1                                  & 94.3           & 55.9           & 37.5\% & 62.5\%               \\
-    \cline{3-11}
-                             &                            & 6                            & \textbf{0.42}                         & 0.59                                & 0.41                                & 1                                  & 95.3           & 56.0           & 75.0\% & 25.0\%               \\
-    \cline{2-11}
-                             & \multirow{3}{*}{WBC}       & 1                            & 0.94                                  & 0.97                                & 0.94                                & 1                                  & 75.3           & 21.6           & 12.5\% & 87.5\%               \\
-    \cline{3-11}
-                             &                            & 3                            & 0.94                                  & 0.97                                & 0.94                                & 1                                  & 75.6           & 21.6           & 37.5\% & 62.5\%               \\
-    \cline{3-11}
-                             &                            & 6                            & 0.95                                  & 0.97                                & 0.94                                & 1                                  & 74.8           & 21.4           & 75.0\% & 25.0\%               \\
-    \hline
-    \multirow{9}{*}{DupRes}  & \multirow{3}{*}{Synthetic} & 1                            & 0.87                                  & 0.93                                & 0.87                                & 1                                  & 90.4           & 59.7           & 12.5\% & 87.5\% + count table \\
-    \cline{3-11}
-                             &                            & 3                            & 0.92                                  & 0.95                                & 0.91                                & 1                                  & 85.8           & 55.4           & 37.5\% & 62.5\% + count table \\
-    \cline{3-11}
-                             &                            & 6                            & 0.98                                  & 0.99                                & 1.00                                & \textbf{0.98}                      & 86.5           & 53.4           & 75.0\% & 25.0\% + count table \\
-    \cline{2-11}
-                             & \multirow{3}{*}{Pendigits} & 1                            & \textbf{0.54}                         & 0.70                                & 0.53                                & 1                                  & \textbf{135}   & \textbf{282}   & 12.5\% & 87.5\% + count table \\
-    \cline{3-11}
-                             &                            & 3                            & \textbf{0.50}                         & 0.67                                & 0.50                                & 1                                  & 135            & 286            & 37.5\% & 62.5\% + count table \\
-    \cline{3-11}
-                             &                            & 6                            & \textbf{0.80}                         & 0.89                                & 0.80                                & 1                                  & \textbf{145}   & \textbf{131}   & 75.0\% & 25.0\% + count table \\
-    \cline{2-11}
-                             & \multirow{3}{*}{WBC}       & 1                            & 0.94                                  & 0.97                                & 0.94                                & 1                                  & 86.9           & 23.4           & 12.5\% & 87.5\% + count table \\
-    \cline{3-11}
-                             &                            & 3                            & 0.94                                  & 0.97                                & 0.94                                & 1                                  & 87.7           & 23.7           & 37.5\% & 62.5\% + count table \\
-    \cline{3-11}
-                             &                            & 6                            & 0.95                                  & 0.97                                & 0.94                                & 1                                  & 85.6           & 23.5           & 75.0\% & 25.0\% + count table \\
-    \hline
-  \end{tabular}
-  \caption{Table containing results of the conducted experiments. The original model performing iForest on uncompressed data. Bases performing iForest on the compressed Data. DupRes which performs extended iForest on the compressed data. Shows the performance metrics(accuracy, f1, recall and precision) and execution time of the various datasets with different amount of compression.}
-  \label{tab:comparison}
-\end{table*}

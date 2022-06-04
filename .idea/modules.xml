@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/au-mlr-research-and-development-dedup.iml" filepath="$PROJECT_DIR$/.idea/au-mlr-research-and-development-dedup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../scikit-learn/.idea/scikit-learn.iml" filepath="$PROJECT_DIR$/../scikit-learn/.idea/scikit-learn.iml" />
     </modules>
   </component>
 </project>
