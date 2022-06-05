@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dae6c51-3d69-4bfe-a76c-9cd6e5d125b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/au-mlr-research-and-development-dedup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/au-mlr-research-and-development-dedup.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/contents/results.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report/contents/results.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/indent.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.aux" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.bbl" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.bbl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.bcf" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.bcf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.blg" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.blg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.fdb_latexmk" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.fdb_latexmk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.fls" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.fls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.synctex.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.tex" beforeDir="false" afterPath="$PROJECT_DIR$/report/report.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PenDigits.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/PenDigits.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WBC.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/WBC.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/pendigits-1dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/pendigits-1dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/pendigits-3dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/pendigits-3dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/pendigits-6dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/pendigits-6dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/synthetic-1dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/synthetic-1dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/synthetic-3dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/synthetic-3dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/synthetic-6dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/synthetic-6dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/wbc-1dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/wbc-1dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/wbc-3dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/wbc-3dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/results/wbc-6dev.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/results/wbc-6dev.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/synthetic-dataset-2d.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/src/synthetic-dataset-2d.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="6dae6c51-3d69-4bfe-a76c-9cd6e5d125b2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +54,7 @@
       <workItem from="1653736662492" duration="6726000" />
       <workItem from="1653748717794" duration="3714000" />
       <workItem from="1653752448247" duration="1284000" />
-      <workItem from="1654365490080" duration="6688000" />
+      <workItem from="1654365490080" duration="7271000" />
     </task>
     <servers />
   </component>

@@ -31,9 +31,10 @@
 \usepackage[
 backend=biber,
 style=numeric,
-sorting=ynt
+sorting=none
 ]{biblatex}
 \addbibresource[]{misc/references.bib}
+
 
 \rowcolors{2}{gray!10}{white}
 
@@ -49,7 +50,6 @@ sorting=ynt
 
 \begin{document}
 \title{Outlier Detection of Generalized Deduplication Compressed IoT Data\\
-{\LARGE Something}\\
 }
 
 \author{\IEEEauthorblockN{Morten Lyng Rosenquist}
@@ -65,36 +65,31 @@ sorting=ynt
 \thispagestyle{plain}
 \pagestyle{plain}
 \begin{abstract}
-  % Summary of whole report
-  % Write last
-  \unfinished{Write abstract}
+  The emerging growth of Internet of Things leads to an immense volume of data being generated. Leading to numerous network and storage challenges that are to be solved with compression. Decompressing the large amount of data to apply analytical methods is costly. Generalized Deduplication is a compression technique that has low distortion and enables analytical capabilities of compressed data. Anomaly detection techniques are applied and evaluated on the compressed and decompressed data. The techniques used are Isolation Forest and an extended version tailored to data compressed by Generalized Deduplication. It showed that the capability of identifying anomalies is not lost after compression. The extended version succeeding in classifying fewer inliers as outliers, but at the cost of processing time and memory usage.       
 \end{abstract}
 
 \begin{IEEEkeywords}
   % Buzzwords regarding field of work
   % 3-8 words
-  \unfinished{Write keywords}
+  Internet of Things, Anomaly Detection, data compression, data mining
 \end{IEEEkeywords}
 
 \section{Introduction}
 \input{contents/introduction.tex}
 
-\section{Background}
+\section{Background}\label{sec:background}
 \input{contents/background.tex}
 
-\section{Related work}
-\input{contents/related-work.tex}
-
-\section{Methods}
+\section{Methods}\label{sec:methods}
 \input{contents/method.tex}
 
-\section{Experiments}
+\section{Experiments}\label{sec:experiments}
 \input{contents/experiments.tex}
 
-\section{Results}
+\section{Results}\label{sec:results}
 \input{contents/results.tex}
 
-\section{Conclusion}
+\section{Conclusion}\label{sec:conclusion}
 \input{contents/conclusion.tex}
 
 \section{Future work}
